@@ -1,0 +1,4 @@
+BEGIN-SHORTCUT Speed+
+Toggle Low Power Mode
+Open URL: about:blank
+END-SHORTCUT

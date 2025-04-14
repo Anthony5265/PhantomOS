@@ -1,0 +1,4 @@
+BEGIN-SHORTCUT Boost++
+Clear Clipboard
+Set Brightness to 10%
+END-SHORTCUT

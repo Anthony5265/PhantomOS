@@ -1,0 +1,5 @@
+BEGIN-SHORTCUT PhantomSafe
+Turn Off Wi-Fi
+Turn Off Bluetooth
+Clear Clipboard
+END-SHORTCUT
