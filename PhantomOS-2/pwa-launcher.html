@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PhantomOS Launcher</title>
+  <link rel="manifest" href="manifest.json" />
+  <link rel="stylesheet" href="../core/phantom.css" />
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('sw.js').then(() => {
+        console.log('Service Worker registered for PhantomOS.');
+      });
+    }
+  </script>
+  <style>
+    body {
+      margin: 0;
+      background: #0f0f0f;
+      color: white;
+      font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      flex-direction: column;
+      text-align: center;
+    }
+    .btn {
+      background: #00b0ff;
+      color: white;
+      padding: 14px 28px;
+      font-size: 18px;
+      border-radius: 10px;
+      border: none;
+      cursor: pointer;
+    }
+    .btn:hover {
+      background: #008fcc;
+    }
+  </style>
+</head>
+<body>
+  <h1>PhantomOS</h1>
+  <p>Tap below to launch the OS dashboard</p>
+  <a class="btn" href="../dashboard.html">Launch PhantomOS</a>
+</body>
+</html>
