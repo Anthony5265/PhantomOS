@@ -1,3 +1,0 @@
-BEGIN-SHORTCUT Mods
-Open URL: modpanel.html
-END-SHORTCUT
